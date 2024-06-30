@@ -21,3 +21,19 @@ A good team player, and I can also take the lead.
 - SwiftUI
 - Git, GitHub
 - Xcode, JetBrain Webstorm, VS Code
+
+## Code example:
+
+### Kata from my codewars account:
+
+```
+func warnTheSheep(_ queue: [String]) -> String {
+    let sheep = (queue.count - 1) - queue.firstIndex(of: "wolf")!
+        if sheep != 0 {
+            return "Oi! Sheep number \(sheep)! You are about to be eaten by a wolf!"
+        } else if queue.last! == "wolf" {
+            return "Pls go away and stop eating my sheep"
+        }
+        return ""
+}
+```
