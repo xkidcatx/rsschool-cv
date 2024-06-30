@@ -44,3 +44,8 @@ func warnTheSheep(_ queue: [String]) -> String {
 
 ![Certificate of copleted Swift Maraphon v3.0](https://user-images.githubusercontent.com/100476727/184662766-0d56930b-1238-45ec-aaa3-74e3cce3ec3b.png)
 
+## Languages:
+
+- English - Intermediate/Upper-Intermediate (Complete Super Spring Lingoda school)
+- Russian - Native
+- Ukrainian - Intermediate
