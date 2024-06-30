@@ -12,8 +12,7 @@
 ## About Me:
 I started learning about programming two years ago and chose Swift as my native language.
 I decided to try my hand at learning javascript now. I study well and like to study.
-Сommunicative and quickly find a common language with new people. Хороший командный игрок, а также могу брать лидерство на себя.
-A good team player, and I can also take the lead.
+Сommunicative and quickly find a common language with new people. A good team player, and I can also take the lead.
 
 ## Skills:
 - Swift
@@ -39,13 +38,13 @@ func warnTheSheep(_ queue: [String]) -> String {
 ```
 
 ## Courses:
-+ IOS & Swift - The Complete iOS App Development Bootcamp (Complete)
-+ RSSchool JS/FE Pre-School 2024Q2 (In progress)
++ IOS & Swift - The Complete iOS App Development Bootcamp (**Complete**)
++ RSSchool JS/FE Pre-School 2024Q2 (**In progress**)
 
 ![Certificate of copleted Swift Maraphon v3.0](https://user-images.githubusercontent.com/100476727/184662766-0d56930b-1238-45ec-aaa3-74e3cce3ec3b.png)
 
 ## Languages:
 
-- English - Intermediate/Upper-Intermediate (Complete Super Spring Lingoda school)
-- Russian - Native
-- Ukrainian - Intermediate
+- **English** - Intermediate/Upper-Intermediate (Complete Super Spring Lingoda school)
+- **Russian** - Native
+- **Ukrainian** - Intermediate
