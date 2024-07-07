@@ -52,24 +52,34 @@
     }
     
 .header-img {
-    width: 350px;
+    width: 380px;
     height: 350px;
     Border-radius: 50%;
     overflow: hidden;
-    }
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
 
     .header-img img {
     Width: 100%;
     Height: 100%;
-    Object-fit: cover;
     }
 
     body {
-        color: #36283A);
+        color: #36283A;
         font-size: 20px;
         font-family: "Poppins", Arial, sans-serif;
         font-weight: 400;
      }
+
+     .code-example {
+        width: 100%;
+        background-color: #c9d4d4;
+        z-index: 2;
+        
+        text-align: left;
+      }
 
     .footer-copyright {
         padding: 15px 30px;

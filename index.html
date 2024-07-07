@@ -43,13 +43,15 @@
         </div>
     </header>
     <main class="main">
-        <img
+        <div class="container">
+            <div class="header--img"></div>
+                <img
                 src="img/eugene.jpeg"
                 width="1280"
                 height="960"
                 class="header-img"
                 alt="Photo of Evgeniy Kotovich"
-        />
+                />
         <section class="contacts" id="contacts">
             <h2 class="section-title">Contacts</h2>
             <ul class="contacts-list">
@@ -124,6 +126,25 @@
                 <li class="hobbies-list-item">Travelling</li>
             </ul>
         </section>
+
+        <section class="code-example" id="code-example">
+            <h2 class="code-example-title">Code example</h2>
+            <code>
+                <pre>
+                func warnTheSheep(_ queue: [String]) -> String {
+                    let sheep = (queue.count - 1) - queue.firstIndex(of: "wolf")!
+                        if sheep != 0 {
+                            return "Oi! Sheep number \(sheep)! You are about to be eaten by a wolf!"
+                        } else if queue.last! == "wolf" {
+                            return "Pls go away and stop eating my sheep"
+                        }
+                        return ""
+                }
+                </pre>
+            </code>
+        </section>
+
+        </div>
     </main>
     <footer class="footer">
         <div class="container">
