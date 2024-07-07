@@ -4,19 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Evgeniy Kotovich CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="icon" href="img/icon.ico" />
     <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
     <header>
-
+        <div class="header-top">
+            <div class="container">
+                <nav class="header-nav">
+                    <ul class="header-menu">
+                        <li>
+                            <a href="#contacts">Contacts</a>
+                        </li>
+                        <li>
+                            <a href="#education">Education</a>
+                        </li>
+                        <li>
+                            <a href="#skills">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#about-me">About me</a>
+                        </li>
+                        <li>
+                            <a href="#languages">Languages</a>
+                        </li>
+                        <li>
+                            <a href="#hobbies">Hobbies</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
     <main class="main">
         <img
                 src="img/eugene.jpeg"
                 width="1280"
                 height="960"
-                class="photo"
+                class="header-img"
                 alt="Photo of Evgeniy Kotovich"
         />
         <section class="contacts" id="contacts">
@@ -74,7 +105,7 @@
                 by Swift Development and decide try to study JS/HTML/CSS. I think it will be funny.
             </p>
         </section>
-        <section class="languages">
+        <section class="languages" id="languages">
         <h2 class="section-title">Languages</h2>
         <ul class="languages-list">
             <li class="languages-list-item">Russian (native)</li>
@@ -83,19 +114,31 @@
         </ul>
         </section>
 
-        <section class="hobbies">
+        <section class="hobbies" id="hobbies">
             <h2 class="section-title">Hobbies</h2>
-            <ul class="languages-list">
-                <li class="languages-list-item">Play Guitar</li>
-                <li class="languages-list-item">Play DJ sets</li>
-                <li class="languages-list-item">Retro gaming</li>
-                <li class="languages-list-item">Gym</li>
-                <li class="languages-list-item">Travelling</li>
+            <ul class="hobbies-list">
+                <li class="hobbies-list-item">Play Guitar</li>
+                <li class="hobbies-list-item">Play DJ sets</li>
+                <li class="hobbies-list-item">Retro gaming</li>
+                <li class="hobbies-list-item">Gym</li>
+                <li class="hobbies-list-item">Travelling</li>
             </ul>
         </section>
     </main>
-    <footer>
-
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-copyright">
+                <div class="footer-social">
+                    <a href="https://github.com/xkidcatx" target="_blank">
+                        <img src="img/github.png" alt="github logo"></a>
+                </div>
+                <p class="copyright">&copy; 2024 Evgeny Kotovich</p>
+                <div class="footer-logo">
+                    <a href="https://rs.school/courses/javascript-ru" target="_blank">
+                        <img src="/img/logo.png" alt="rsschool logo"></a>
+                </div>
+            </div>
+        </div>
     </footer>
 
 </body>
