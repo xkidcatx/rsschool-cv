@@ -52,6 +52,10 @@
                 class="header-img"
                 alt="Photo of Evgeniy Kotovich"
                 />
+                <div class="header-title">
+                    <h1>EVGENIY KOTOVICH</h1>
+                    <h2>Front-end developer</h2>
+                </div>
         <section class="contacts" id="contacts">
             <h2 class="section-title">Contacts</h2>
             <ul class="contacts-list">
@@ -126,11 +130,10 @@
                 <li class="hobbies-list-item">Travelling</li>
             </ul>
         </section>
-
+        <h2 class="code-example-title">Code example</h2>
         <section class="code-example" id="code-example">
-            <h2 class="code-example-title">Code example</h2>
-            <code>
-                <pre>
+            <pre>
+                <code>
                 func warnTheSheep(_ queue: [String]) -> String {
                     let sheep = (queue.count - 1) - queue.firstIndex(of: "wolf")!
                         if sheep != 0 {
@@ -140,9 +143,36 @@
                         }
                         return ""
                 }
-                </pre>
-            </code>
+                </code>
+            </pre>
         </section>
+        <div class="main-column">
+            <section class="projects" id="projects">
+                <h2 class="title">Projects</h2>
+                <div class="projects__wrapper">
+                    <a class="project-card" href="https://github.com/xkidcatx/Memorize" target="_blank">
+                        <div class="project-card__img">
+                            <img src="./img/memorize.gif" alt="project img">
+                        </div>
+                        <h4 class="project-card__title">Memorize app (SwiftUI)</h4></a>
+                    <a class="project-card" href="https://github.com/xkidcatx/MusicPlayer" target="_blank">
+                        <div class="project-card__img">
+                            <img src="./img/watermellon.png" alt="project img">
+                        </div>
+                        <h4 class="project-card__title">Watermellon Music (UIKit)</h4></a>
+                        <a class="project-card" href="https://github.com/xkidcatx/Weather-App-UI-Swift-UI-" target="_blank">
+                            <div class="project-card__img">
+                                <img src="./img/weather.gif" alt="project img">
+                            </div>
+                            <h4 class="project-card__title">WeatherApp(SwiftUI)</h4></a>
+                    <a class="project-card" href="https://github.com/xkidcatx/Alias-Aliens" target="_blank">
+                        <div class="project-card__img">
+                            <img src="./img/aliens.png" alt="project img">
+                        </div>
+                        <h4 class="project-card__title">Aliens game(UIKit)</h4></a>
+                </div>
+            </section>
+        </div>
 
         </div>
     </main>
